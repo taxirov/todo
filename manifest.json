@@ -1,25 +1,29 @@
 {
-    "background_color": "#ffffff",
-    "dir": "ltr",
-    "display": "standalone",
-    "name": "Todo App",
-    "orientation": "any",
-    "scope": "/",
-    "short_name": "Todo App",
-    "start_url": "/",
-    "theme_color": "#ffffff",
-    "icons": [
-      {
-        "src": "./icon.svg",
-        "sizes": "5724x5724",
-        "type": "image/x-icon"
-      }
-    ],
-    "categories": [
-      "education",
-      "lifestyle",
-      "productivity",
-      "utilities"
-    ],
-    "lang": "en"
-  }
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "Todo App",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Todo App",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "5724x5724",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": [
+    "education",
+    "lifestyle",
+    "productivity",
+    "utilities"
+  ],
+  "lang": "en",
+  "description": "Todo App",
+  "id": "8080",
+  "iarc_rating_id": "905789204",
+  "prefer_related_applications": true
+}
