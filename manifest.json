@@ -1,0 +1,24 @@
+{
+    "background_color": "#ffffff",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "Todo App",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "Todo App",
+    "start_url": "/",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "./icon.svg",
+        "type": "image/x-icon"
+      }
+    ],
+    "categories": [
+      "education",
+      "lifestyle",
+      "productivity",
+      "utilities"
+    ],
+    "lang": "en"
+  }
