@@ -27,8 +27,8 @@ async function getLocalTodos() {
                                         <p class="text-lg font-bold text-slate-700">${todo.title}</p>
                                         <p class="text-md font-semibold text-slate-700">${todo.desc}</p>
                                         <span class="flex items-center gap-3 w-full">
-                                        <button id="todoDeleteBtn" todoid="${todo.id}" class="px-4 py-2 text-stone-100 hover:shadow-md font-bold w-2/5 bg-red-500 rounded-md">Delete</button>
-                                        <button id="todoDoneBtn" todoid="${todo.id}" class="px-4 py-2 text-stone-100 hover:shadow-md font-bold w-3/5 bg-green-500 rounded-md">Done</button>
+                                        <button id="todoDeleteBtn" todoid="${todo.id}" class="px-4 py-2 text-stone-100 hover:shadow-md font-bold w-2/5 bg-gradient-to-r from-red-500 to-red-600 rounded-md">Delete</button>
+                                        <button id="todoDoneBtn" todoid="${todo.id}" class="px-4 py-2 text-stone-100 hover:shadow-md font-bold w-3/5 bg-gradient-to-r from-green-500 to-green-600 rounded-md">Done</button>
                                         </span>
                                     </li>
                                 `
@@ -38,8 +38,8 @@ async function getLocalTodos() {
                                         <p class="text-lg font-bold text-slate-700">${todo.title}</p>
                                         <p class="text-md font-semibold text-slate-700">${todo.desc}</p>
                                         <span class="flex items-center gap-3 w-full">
-                                            <button id="todoDeleteBtn" todoid="${todo.id}" class="px-4 py-2 text-stone-100 hover:shadow-md font-bold w-2/5 bg-red-500 rounded-md">Delete</button>
-                                            <button id="todoUndoneBtn" todoid="${todo.id}" class="px-4 py-2 text-stone-500 hover:shadow-md font-bold w-3/5 bg-green-200 rounded-md">Undone</button>
+                                            <button id="todoDeleteBtn" todoid="${todo.id}" class="px-4 py-2 text-stone-100 hover:shadow-md font-bold w-2/5 bg-gradient-to-r from-red-500 to-red-600 rounded-md">Delete</button>
+                                            <button id="todoUndoneBtn" todoid="${todo.id}" class="px-4 py-2 text-stone-500 hover:shadow-md font-bold w-3/5 bg-gradient-to-r from-green-200 to-green-300 rounded-md">Undone</button>
                                         </span>
                                     </li>
                                 `
